@@ -1,0 +1,29 @@
+{
+  "name": "php-all-in-one-custom-pack",
+  "displayName": "PHP All In One Custom Pack",
+  "description": "Here all of the necessary PHP extensions are included. A developer won't need to install other extensions; all are here.",
+  "version": "1.0.0",
+  "publisher": "mahamudul",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahamudulhasanmonir/php-all-in-one-custom-pack.git"
+  },
+  "extensionPack": [
+    "bmewburn.vscode-intelephense-client",
+    "xdebug.php-debug",
+    "neilbrayfield.php-docblocker",
+    "MehediDracula.php-namespace-resolver",
+    "junstyle.php-cs-fixer",
+    "ikappas.composer",
+    "onecentlin.laravel-blade",
+    "amiralizadeh9480.laravel-extra-intellisense",
+    "formulahendry.code-runner",
+    "christian-kohler.path-intellisense"
+  ]
+}
